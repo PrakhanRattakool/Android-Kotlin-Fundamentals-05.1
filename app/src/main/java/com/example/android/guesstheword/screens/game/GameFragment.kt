@@ -33,6 +33,8 @@ class GameFragment : Fragment() {
     // The current word
     private var word = ""
 
+    private lateinit var viewModel: GameViewModel
+
     // The current score
     private var score = 0
 
